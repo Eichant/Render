@@ -1,6 +1,0 @@
-Flask
-psycopg2
-SQLAlchemy
-python-dotenv
-Flask-SQLAlchemy
-gunicorn
