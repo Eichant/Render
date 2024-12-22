@@ -32,5 +32,5 @@ if __name__ == '__main__':
     with app.app_context():
         db.create_all()
 
-    port = os.getenv('PORT', 10000)  # порт для Render
+    port = os.getenv('PORT', 5000)  # порт для Render
     app.run(host='0.0.0.0', port=port, debug=False)  # відключення debug mode
